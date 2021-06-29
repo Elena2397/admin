@@ -1,0 +1,242 @@
+
+/* Рабочая область*/
+.header__active {
+    font-weight: 600;
+    color:#3B72B1;
+    border-bottom: 2px solid #98C2F1;
+}
+
+.section {
+    display: flex;
+    background: #FDFDFD;
+}
+#work {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10rem;
+    padding-bottom: 27rem;
+    width: 38rem;
+}
+.arrow__right__link {
+    padding-top: .35rem;
+    width: 5%;
+    height: 10%;
+}
+
+.links {
+    padding: 2.55rem 0 1.57rem;
+    font-size: .73rem;
+    line-height: .82rem;
+    border: none;
+    box-shadow: none;
+    color: #3B72B1;
+}
+.links img {
+    width: 0.3%;
+}
+.link__back {
+    font-weight: 500;
+    font-size: .82rem;
+    line-height: 170%;
+    color: #9B9B9B;
+}
+.link__back img {
+    width: .9%;
+}
+.section__plan {
+    padding:2.7rem 0;
+    font-size: 1.1rem;
+    line-height: 1.32rem;
+    color: #393939;
+}
+.plan {
+    font-weight: normal;
+    font-size: .64rem;
+    width: 46rem;
+    margin: 0;
+    line-height: 170%;
+    color: #393939;
+}
+.section__min {
+    padding: 5rem 0 1.5rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 140%;
+    color: #393939;
+}
+.section__items li {
+    list-style: inside;
+    padding:1.5rem 0 1.5rem;
+    color: #3B72B1;;
+}
+.section__item {
+    font-size: .64rem;
+    line-height: 170%;
+    color:#393939;
+}
+.active__link {
+    color:#9B9B9B;
+}
+.navigator {
+    display: flex;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    box-shadow: 0 5px 5px -5px rgba(.4, 0, 0, 0);
+    box-sizing: border-box;
+    border-left:1px solid #C0C0C0;
+    background: #FDFDFD;
+}
+.batton {
+    display: flex;
+    font-weight: normal;
+    margin: 1.6rem 0;
+    width: 6rem;
+    font-size: .73rem;
+    line-height: 120%;
+    color: #9B9B9B;
+    border-top:1px solid #C0C0C0;
+    border-right: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;;
+}
+.batton p {
+    font-weight: normal;
+    font-size: .61rem;
+    margin-left: 0;
+}
+.batton img {
+    padding: .5rem .5rem 0.2rem .5rem;
+    width: 14%;
+    height: 25%;
+}
+.link__menu__name {
+    width: 20%;
+}
+.menu__name {
+    padding-left: 1.8rem;
+    padding-bottom: 1.4rem;
+    font-size: .73rem;
+    width: 20rem;
+    line-height: 140%;
+    color: #393939;
+}
+.menu__item {
+    padding: .625rem 0 .625rem 3rem;
+    font-weight: normal;
+    font-size: .59rem;
+    line-height: 170%;
+    width: 15rem;
+    color: #9B9B9B;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+/*.topheader
+{
+    display: inline-block;
+    border-bottom: 1px solid #C0C0C0;
+    border-top: 1px solid #C0C0C0;
+    width: 1920px;
+    height: 82px;
+
+}
+.emb
+{
+    display: inline-block;
+    margin-left:260px;
+}
+.organization
+{
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    margin-right: 260px;
+    vertical-align: top;
+    text-align: left;
+    font-size:13px;
+}
+.nav
+{
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+    vertical-align: top;
+
+}
+.img
+{
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+.navigation
+{
+
+    display: inline-block;
+    padding-left:260px;
+    border-bottom: 1px solid #C0C0C0;
+    width: 1920px;
+    height: 50px;
+}
+a.menu:link
+{
+    text-decoration:none;
+    text-align: center;
+    margin: 0px 10px;
+    color: #9B9B9B;
+
+}
+a.menu:hover
+{
+    text-decoration: underline blue;
+
+}
+.directions h1
+{
+    font-size: 24px;
+    margin-left: 260px;
+}
+.line
+{
+    margin-left: 230px;
+}
+.block
+{
+    display: inline-block;
+    border: 5px solid #3B72B1;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+.ris
+{
+    display: inline-block;
+
+}
+.name
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color:#3B72B1;
+    width: 130px;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}*/
+
+

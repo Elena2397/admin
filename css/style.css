@@ -1,0 +1,418 @@
+*{
+    margin:0;
+    padding:0;
+}
+html {
+    font-size: 100%;
+}
+body {
+    width: 100%;
+    font-family: 'Montserrat';
+    color: #393939;
+    background-color: #E5E5E5;
+
+}
+img {
+    max-width: 100%;
+}
+a {
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style: none;
+}
+.content {
+    width: 73rem;
+    margin: 0 auto;
+}
+
+/* Главная страница */
+header {
+    width: 100%;
+    background-color: #fff;
+}
+/* оформление верхний части страницы*/
+.header__information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .1rem 0;
+}
+/* расположение и размещение логотипа с названием, картинок поиска, языка*/
+.header__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+}
+.header__items:first-child {
+    justify-content: flex-start;
+    width: 40%;
+}
+/* характеристика заголовка у логотипа*/
+h1 {
+    font-size:0.8rem;
+    line-height: 150%;
+    font-weight: 600;
+}
+/* размер логотипа*/
+.header__logo {
+    width: 11%;
+    margin-right: 3%;
+    border-left: ;
+}
+/* оформления навигации сайта, создание тени, разделение верхней части на две*/
+nav {
+    width: 100%;
+    font-weight: 500;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .4);
+    box-sizing: border-box;
+    border: 1px solid #C0C0C0;
+}
+/* расположение основных ссылок по центру и с одинаковым расстоянием друг от друга*/
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* размер шрифта основных ссылок*/
+.header__menu__item {
+    position: relative;
+    display: block;
+    padding: .5rem 0;
+    font-size: 1rem;
+    color: #9B9B9B;
+}
+/* при наведение на ссылку меняется цвет*/
+.header__menu__item:hover {
+    color: #393939;
+}
+.header__submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 100%;
+    padding: .62rem;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}
+.header__submenu__item {
+    padding-bottom: .66rem;
+    font-weight: 300;
+    font-size: .55rem;
+    line-height: .66rem;
+}
+.header__menu__item:hover>.header__submenu{
+    display: block;
+    z-index: 999;
+
+}
+/* Рабочая область*/
+/* основное оформление для заголовков второго уровня*/
+h2 {
+    padding: 2.28rem 0 0.9rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/* основное оформление для обзацев*/
+p {
+    font-size: 0.9rem;
+    line-height: 140%;
+    font-weight: 600;
+    margin-left: 0.73rem;
+    width: 100%;
+}
+/* разбиваем направление работ на блоки одинакового размера*/
+.section__information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+/* каждому блоку задаем определенные характеристики, расстояния между друг другом*/
+.section__work {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 19%;
+    margin: 0.36rem 0;
+    padding: 0.87rem 1.4rem;
+    border: 1px solid #C0C0C0;
+    filter: grayscale(1);
+    background: #FFFFFF;
+
+}
+.section__work:hover{
+    filter: none;
+}
+    /* картинкам в блоке задаем размер*/
+.section__work img {
+    width: 19%;
+}
+.link {
+    display: flex;
+    margin: 1.2rem 0 1.82rem 65rem;
+    font-weight: normal;
+    font-size: .64rem;
+    color: #3B72B1;
+}
+/* картинка стрелка ее расположение*/
+.arrow__right {
+    padding-top: .35rem;
+    padding-left: .5rem;
+    width: 10%;
+    height: 10%;
+}
+
+/*Новости*/
+/* цвет  свего поля новости*/
+#news {
+    background: #FFFFFF;
+}
+/* размещение названия блока*/
+.news {
+    padding: 2.2rem 0 1.1rem;
+}
+/* задание характеристики для всех блоков новостей*/
+.section__news {
+    display: flex;
+    justify-content:space-between;
+}
+/* для каждого блока новости характеристики, расстояние между этими блоками*/
+.section__news__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 24.4%;
+    margin: 0.5rem 0 1.3rem;
+    border: 1px solid #C0C0C0;
+    filter: grayscale(100%);
+}
+.section__news__item:hover{
+    filter: none;
+}
+
+    /*оформление картинки для каждой новости*/
+.section__news__item img {
+    display: flex;
+    justify-content:space-between;
+    max-width: 100% ;
+}
+/* расположение основного текста новости*/
+.name__news {
+    margin: 0 0 auto .8rem;
+}
+/* оформление для каждого абзаца в каждой новости*/
+.section__news__item p {
+    padding: 1.25rem .9rem 0 .9rem;
+    align-items: center;
+    font-size: 0.64rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+/* размеры и оформление время новости*/
+p.date {
+    font-size: 0.6rem;
+    color: #9B9B9B;
+}
+.link__news {
+    display: flex;
+    margin-left: 78.5rem;
+    padding-bottom: 2.8rem;
+    font-weight: normal;
+    font-size: .64rem;
+    color: #3B72B1;
+}
+/* картинка стрелка ее расположение*/
+.arrow__right__news {
+    padding-top: .35rem;
+    padding-left: .5rem;
+    width: 5%;
+    height: 10%;
+}
+/* Полезные ресурсы */
+/* оформление раздела ресурсы*/
+.section_resours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+/* для каждого блока ресурсы оформление расстояние между блоками*/
+.resours {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5.75rem;
+    width: 15.4%;
+}
+.resours__arrow__left {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.resours__arrow__right {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+/*нижняя часть*/
+/* задание для всего блока цвета*/
+#footer {
+    background: #555B6C;;
+}
+/* задание для верхнего блока подвала основных характеристик*/
+.footer__information__one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.2rem 0;
+    color: #ffffff;
+}
+/* размер шрифта и основные характеристики для ссылок в подвале*/
+.footer__items__one {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: .73rem;
+    width: 80%;
+}
+/* размеры шрифта и размеры харектеристик для картинок сайтов*/
+.footer__items__two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 7%;
+    align-items: center;
+    font-size: .73rem;
+}
+/* основные характеристики для второго блока подвала*/
+.footer__information__two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 0 2rem 0;
+    color: #BDC0C7;
+
+}
+/* размеры шрифта во втором блоке подвала*/
+.footer__information__two p {
+    margin-left: 0;
+    font-size: 0.62rem;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+/*.topheader
+{
+    display: inline-block;
+    border-bottom: 1px solid #C0C0C0;
+    border-top: 1px solid #C0C0C0;
+    width: 1920px;
+    height: 82px;
+
+}
+.emb
+{
+    display: inline-block;
+    margin-left:260px;
+}
+.organization
+{
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    margin-right: 260px;
+    vertical-align: top;
+    text-align: left;
+    font-size:13px;
+}
+.nav
+{
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+    vertical-align: top;
+
+}
+.img
+{
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+.navigation
+{
+
+    display: inline-block;
+    padding-left:260px;
+    border-bottom: 1px solid #C0C0C0;
+    width: 1920px;
+    height: 50px;
+}
+a.menu:link
+{
+    text-decoration:none;
+    text-align: center;
+    margin: 0px 10px;
+    color: #9B9B9B;
+
+}
+a.menu:hover
+{
+    text-decoration: underline blue;
+
+}
+.directions h1
+{
+    font-size: 24px;
+    margin-left: 260px;
+}
+.line
+{
+    margin-left: 230px;
+}
+.block
+{
+    display: inline-block;
+    border: 5px solid #3B72B1;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+.ris
+{
+    display: inline-block;
+
+}
+.name
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color:#3B72B1;
+    width: 130px;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}*/
+
+
